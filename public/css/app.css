@@ -1204,6 +1204,10 @@ input.top-search:focus {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
+.border-red-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1266,14 +1270,14 @@ input.top-search:focus {
 .p-\[13px\] {
   padding: 13px;
 }
+.p-4 {
+  padding: 1rem;
+}
 .p-5 {
   padding: 1.25rem;
 }
 .p-\[5px\] {
   padding: 5px;
-}
-.p-4 {
-  padding: 1rem;
 }
 .px-4 {
   padding-left: 1rem;
