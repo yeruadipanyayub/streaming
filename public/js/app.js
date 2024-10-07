@@ -4512,19 +4512,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ FeaturedMovie)
 /* harmony export */ });
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
  // add validation
 
 
 
 FeaturedMovie.propTypes = {
-  slug: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired),
-  name: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired),
-  category: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired),
-  thumbnail: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired),
-  rating: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().number)
+  slug: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  name: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  category: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  thumbnail: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  rating: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().number)
 };
 function FeaturedMovie(_ref) {
   var slug = _ref.slug,
@@ -4533,44 +4535,44 @@ function FeaturedMovie(_ref) {
       thumbnail = _ref.thumbnail,
       _ref$rating = _ref.rating,
       rating = _ref$rating === void 0 ? 0 : _ref$rating;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
     className: "absolute overflow-hidden group mr-[30px]",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
       src: thumbnail,
       className: "object-cover rounded-[30px] w-[520px] h-[340px]",
       alt: ""
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "rating absolute top-0 left-0",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "p-[30px] flex items-center gap-1",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
           src: "/icons/ic_star.svg",
           alt: ""
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("span", {
           className: "text-sm font-medium text-white mt-1",
           children: [rating.toFixed(1), "/5.0"]
         })]
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "absolute bottom-0 h-[100px] left-0 right-0 bg-gradient-to-t from-black rounded-bl-[28px]\r rounded-br-[28px] flex justify-between items-center px-7 h-[130px]",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "font-medium text-[22px] text-white",
           children: name
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
           className: "mb-0 text-white text-sm font-light",
           children: category
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "translate-x-[100px] group-hover:translate-x-0 transition ease-in-out duration-500",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
           src: "/icons/ic_play.svg",
           width: "50",
           alt: ""
         })
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-      href: slug,
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+      href: route('prototype.movie.show', slug),
       className: "inset-0 absolute z-50"
     })]
   });
@@ -4693,52 +4695,54 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ MovieCard)
 /* harmony export */ });
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
  // add validation
 
 
 
 MovieCard.propTypes = {
-  slug: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired),
-  name: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired),
-  category: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired),
-  thumbnail: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string.isRequired)
+  slug: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  name: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  category: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
+  thumbnail: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired)
 };
 function MovieCard(_ref) {
   var slug = _ref.slug,
       name = _ref.name,
       category = _ref.category,
       thumbnail = _ref.thumbnail;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
     className: "absolute group overflow-hidden mr-[30px]",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
       src: thumbnail,
       className: "object-cover rounded-[30px] h-[340px] w-[250px]",
       alt: ""
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black rounded-bl-[28px] rounded-br-[28px]",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "px-7 pb-7",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "font-medium text-xl text-white",
           children: name
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
           className: "mb-0 text-gray-300 text-base mt-[10px]",
           children: category
         })]
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       className: "absolute top-1/2 left-1/2 -translate-y-[500px] group-hover:-translate-y-1/2\r -translate-x-1/2 z-20 transition ease-in-out duration-500",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
         src: "/icons/ic_play.svg",
         className: "",
         width: "50",
         alt: ""
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-      href: slug,
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+      href: route('prototype.movie.show', slug),
       className: "inset-0 absolute z-50"
     })]
   });
@@ -4808,6 +4812,137 @@ function ResponsiveNavLink(_ref) {
     href: href,
     className: "w-full flex items-start pl-3 pr-4 py-2 border-l-4 ".concat(active ? 'border-indigo-400 text-indigo-700 bg-indigo-50 focus:outline-none focus:text-indigo-800 focus:bg-indigo-100 focus:border-indigo-700' : 'border-transparent text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300', " text-base font-medium focus:outline-none transition duration-150 ease-in-out"),
     children: children
+  });
+}
+
+/***/ }),
+
+/***/ "./resources/js/Components/SubscriptionCard.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/Components/SubscriptionCard.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ SubscriptionCard)
+/* harmony export */ });
+/* harmony import */ var _Components_Button__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Components/Button */ "./resources/js/Components/Button.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function SubscriptionCard(_ref) {
+  var id = _ref.id,
+      name = _ref.name,
+      price = _ref.price,
+      durationInMonth = _ref.durationInMonth,
+      features = _ref.features,
+      isPremium = _ref.isPremium,
+      onSelectSubscription = _ref.onSelectSubscription;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [!isPremium && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "flex flex-col gap-[30px] py-[30px] px-7 outline outline-1 outline-[#F1F1F1] rounded-[26px] text-black w-[300px] h-[max-content]",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "text-sm mb-2",
+          children: name
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "text-[28px] font-bold",
+          children: ["IDR ", price.toLocaleString()]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
+          className: "text-gray-1 text-xs font-light",
+          children: ["/", durationInMonth, " months"]
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "flex flex-col gap-4",
+        children: features.map(function (feature, index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "flex items-center gap-2",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+              src: "/icons/ic_tick.svg",
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+              className: "text-sm",
+              children: feature
+            })]
+          }, "".concat(index, "-").concat(id, "-").concat(features));
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        onClick: onSelectSubscription,
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_Components_Button__WEBPACK_IMPORTED_MODULE_0__["default"], {
+          type: "button",
+          variant: "white-outline",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("span", {
+            className: "text-base",
+            children: ["Start ", name]
+          })
+        })
+      })]
+    }), isPremium && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "flex flex-col gap-[30px] py-[30px] px-7 outline outline-1 outline-[#F1F1F1] rounded-[26px] text-white w-[300px] bg-black",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "bg-alerange rounded-full p-[13px] max-w-max",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+          src: "/icons/ic_star.svg",
+          width: "24",
+          alt: ""
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "text-sm mb-2",
+          children: name
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          className: "text-[28px] font-bold",
+          children: ["IDR ", price.toLocaleString()]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
+          className: "text-[#767676] text-xs font-light",
+          children: ["/", durationInMonth, " months"]
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        className: "flex flex-col gap-4",
+        children: features.map(function (feature, index) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+            className: "flex items-center gap-2",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("svg", {
+              width: "24",
+              height: "24",
+              viewBox: "0 0 24 24",
+              fill: "none",
+              stroke: "currentColor",
+              xmlns: "http://www.w3.org/2000/svg",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                d: "M8.4402 12.0001L10.8142 14.3731L15.5602 9.62708",
+                strokeWidth: "1.5",
+                strokeLinecap: "round",
+                strokeLinejoin: "round"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
+                fillRule: "evenodd",
+                clipRule: "evenodd",
+                d: "M2.7498 12.0001C2.7498 18.9371 5.0628 21.2501 11.9998 21.2501C18.9368 21.2501 21.2498 18.9371 21.2498 12.0001C21.2498 5.06312 18.9368 2.75012 11.9998 2.75012C5.0628 2.75012 2.7498 5.06312 2.7498 12.0001Z",
+                strokeWidth: "1.5",
+                strokeLinecap: "round",
+                strokeLinejoin: "round"
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+              className: "text-sm",
+              children: "Unlock 200 awards movies"
+            })]
+          }, "".concat(index, "-").concat(id, "-").concat(features));
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        onClick: onSelectSubscription,
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_Components_Button__WEBPACK_IMPORTED_MODULE_0__["default"], {
+          type: "button",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+            className: "text-base font-semibold",
+            children: "Subscribe Now"
+          })
+        })
+      })]
+    })]
   });
 }
 
@@ -5089,174 +5224,176 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Sidebar)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 function Sidebar() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("aside", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("aside", {
     className: "fixed z-50 w-[300px] h-full",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       className: "flex flex-col p-[30px] pr-0 border-r border-gray-[#F1F1F1] overflow-y-auto h-full",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
         href: "/",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
           src: "/images/moonton.svg",
           alt: ""
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
         className: "links flex flex-col mt-[60px] h-full gap-[50px]",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "text-gray-1 text-sm mb-4",
             children: "Menu"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-            href: "/",
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+            href: route('prototype.dashboard'),
             className: "side-link active",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("g", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("g", {
                 id: "Iconly/Bulk/Home",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("g", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("g", {
                   id: "Home",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                     id: "Home_2",
                     d: "M9.14373 20.7821V17.7152C9.14372 16.9381 9.77567 16.3067 10.5584 16.3018H13.4326C14.2189 16.3018 14.8563 16.9346 14.8563 17.7152V17.7152V20.7732C14.8563 21.4473 15.404 21.9951 16.0829 22H18.0438C18.9596 22.0023 19.8388 21.6428 20.4872 21.0007C21.1356 20.3586 21.5 19.4868 21.5 18.5775V9.86585C21.5 9.13139 21.1721 8.43471 20.6046 7.9635L13.943 2.67427C12.7785 1.74912 11.1154 1.77901 9.98539 2.74538L3.46701 7.9635C2.87274 8.42082 2.51755 9.11956 2.5 9.86585V18.5686C2.5 20.4637 4.04738 22 5.95617 22H7.87229C8.19917 22.0023 8.51349 21.8751 8.74547 21.6464C8.97746 21.4178 9.10793 21.1067 9.10792 20.7821H9.14373Z"
                   })
                 })
               })
             }), "Discover"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "#!",
             className: "side-link",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M15.8498 2.50071C16.4808 2.50071 17.1108 2.58971 17.7098 2.79071C21.4008 3.99071 22.7308 8.04071 21.6198 11.5807C20.9898 13.3897 19.9598 15.0407 18.6108 16.3897C16.6798 18.2597 14.5608 19.9197 12.2798 21.3497L12.0298 21.5007L11.7698 21.3397C9.48077 19.9197 7.34977 18.2597 5.40077 16.3797C4.06077 15.0307 3.02977 13.3897 2.38977 11.5807C1.25977 8.04071 2.58977 3.99071 6.32077 2.76971C6.61077 2.66971 6.90977 2.59971 7.20977 2.56071H7.32977C7.61077 2.51971 7.88977 2.50071 8.16977 2.50071H8.27977C8.90977 2.51971 9.51977 2.62971 10.1108 2.83071H10.1698C10.2098 2.84971 10.2398 2.87071 10.2598 2.88971C10.4808 2.96071 10.6898 3.04071 10.8898 3.15071L11.2698 3.32071C11.3616 3.36968 11.4647 3.44451 11.5537 3.50918C11.6102 3.55015 11.661 3.58705 11.6998 3.61071C11.7161 3.62034 11.7327 3.63002 11.7494 3.63978C11.8351 3.68983 11.9245 3.74197 11.9998 3.79971C13.1108 2.95071 14.4598 2.49071 15.8498 2.50071ZM18.5098 9.70071C18.9198 9.68971 19.2698 9.36071 19.2998 8.93971V8.82071C19.3298 7.41971 18.4808 6.15071 17.1898 5.66071C16.7798 5.51971 16.3298 5.74071 16.1798 6.16071C16.0398 6.58071 16.2598 7.04071 16.6798 7.18971C17.3208 7.42971 17.7498 8.06071 17.7498 8.75971V8.79071C17.7308 9.01971 17.7998 9.24071 17.9398 9.41071C18.0798 9.58071 18.2898 9.67971 18.5098 9.70071Z"
               })
             }), "Your Favorites"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "#!",
             className: "side-link",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M13.4499 4.8802H16.5199C20.2099 4.8802 22.0099 6.8502 21.9999 10.8902V15.7602C21.9999 19.6202 19.6199 22.0002 15.7499 22.0002H8.23988C4.38988 22.0002 1.99988 19.6202 1.99988 15.7502V8.2402C1.99988 4.1002 3.83988 2.0002 7.46988 2.0002H9.04988C9.98088 1.9902 10.8499 2.4202 11.4199 3.1502L12.2999 4.3202C12.5799 4.6702 12.9999 4.8802 13.4499 4.8802ZM7.36988 15.2902H16.6299C17.0399 15.2902 17.3699 14.9502 17.3699 14.5402C17.3699 14.1202 17.0399 13.7902 16.6299 13.7902H7.36988C6.94988 13.7902 6.61988 14.1202 6.61988 14.5402C6.61988 14.9502 6.94988 15.2902 7.36988 15.2902Z"
               })
             }), "Downloads"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "#!",
             className: "side-link mb-0",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M2 12.015C2 6.74712 6.21 2 12.02 2C17.7 2 22 6.65699 22 11.985C22 18.1642 16.96 22 12 22C10.36 22 8.54 21.5593 7.08 20.698C6.57 20.3876 6.14 20.1572 5.59 20.3375L3.57 20.9384C3.06 21.0986 2.6 20.698 2.75 20.1572L3.42 17.9139C3.53 17.6034 3.51 17.2729 3.35 17.0125C2.49 15.4301 2 13.6975 2 12.015ZM10.7 12.015C10.7 12.7261 11.27 13.2969 11.98 13.307C12.69 13.307 13.26 12.7261 13.26 12.025C13.26 11.314 12.69 10.7431 11.98 10.7431C11.28 10.7331 10.7 11.314 10.7 12.015ZM15.31 12.025C15.31 12.7261 15.88 13.307 16.59 13.307C17.3 13.307 17.87 12.7261 17.87 12.025C17.87 11.314 17.3 10.7431 16.59 10.7431C15.88 10.7431 15.31 11.314 15.31 12.025ZM7.37 13.307C6.67 13.307 6.09 12.7261 6.09 12.025C6.09 11.314 6.66 10.7431 7.37 10.7431C8.08 10.7431 8.65 11.314 8.65 12.025C8.65 12.7261 8.08 13.2969 7.37 13.307Z"
               })
             }), "Messages (102)"]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
             className: "text-gray-1 side-link mb-4",
             children: "Others"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-            href: "pricing.html",
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+            href: route('prototype.subscription'),
             className: "side-link",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M17.7689 8.3818H22C22 4.98459 19.9644 3 16.5156 3H7.48444C4.03556 3 2 4.98459 2 8.33847V15.6615C2 19.0154 4.03556 21 7.48444 21H16.5156C19.9644 21 22 19.0154 22 15.6615V15.3495H17.7689C15.8052 15.3495 14.2133 13.7975 14.2133 11.883C14.2133 9.96849 15.8052 8.41647 17.7689 8.41647V8.3818ZM17.7689 9.87241H21.2533C21.6657 9.87241 22 10.1983 22 10.6004V13.131C21.9952 13.5311 21.6637 13.8543 21.2533 13.8589H17.8489C16.8548 13.872 15.9855 13.2084 15.76 12.2643C15.6471 11.6783 15.8056 11.0736 16.1931 10.6122C16.5805 10.1509 17.1573 9.88007 17.7689 9.87241ZM17.92 12.533H18.2489C18.6711 12.533 19.0133 12.1993 19.0133 11.7877C19.0133 11.3761 18.6711 11.0424 18.2489 11.0424H17.92C17.7181 11.0401 17.5236 11.1166 17.38 11.255C17.2364 11.3934 17.1555 11.5821 17.1556 11.779C17.1555 12.1921 17.4964 12.5282 17.92 12.533ZM6.73778 8.3818H12.3822C12.8044 8.3818 13.1467 8.04812 13.1467 7.63649C13.1467 7.22487 12.8044 6.89119 12.3822 6.89119H6.73778C6.31903 6.89116 5.9782 7.2196 5.97333 7.62783C5.97331 8.04087 6.31415 8.37705 6.73778 8.3818Z"
               })
             }), "Payments"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "#!",
             className: "side-link",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M7.33037 2.0004H16.6694C20.0704 2.0004 21.9904 3.9294 22.0004 7.3304V16.6704C22.0004 20.0704 20.0704 22.0004 16.6694 22.0004H7.33037C3.92937 22.0004 2.00037 20.0704 2.00037 16.6704V7.3304C2.00037 3.9294 3.92937 2.0004 7.33037 2.0004ZM12.0494 17.8604C12.4804 17.8604 12.8394 17.5404 12.8794 17.1104V6.9204C12.9194 6.6104 12.7704 6.2994 12.5004 6.1304C12.2194 5.9604 11.8794 5.9604 11.6104 6.1304C11.3394 6.2994 11.1904 6.6104 11.2194 6.9204V17.1104C11.2704 17.5404 11.6294 17.8604 12.0494 17.8604ZM16.6504 17.8604C17.0704 17.8604 17.4294 17.5404 17.4804 17.1104V13.8304C17.5094 13.5094 17.3604 13.2104 17.0894 13.0404C16.8204 12.8704 16.4804 12.8704 16.2004 13.0404C15.9294 13.2104 15.7804 13.5094 15.8204 13.8304V17.1104C15.8604 17.5404 16.2194 17.8604 16.6504 17.8604ZM8.21937 17.1104C8.17937 17.5404 7.82037 17.8604 7.38937 17.8604C6.95937 17.8604 6.59937 17.5404 6.56037 17.1104V10.2004C6.53037 9.8894 6.67937 9.5804 6.95037 9.4104C7.21937 9.2404 7.56037 9.2404 7.83037 9.4104C8.09937 9.5804 8.25037 9.8894 8.21937 10.2004V17.1104Z",
                 fill: "#B7B7B7"
               })
             }), "Analytics"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "#!",
             className: "side-link",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M17.7689 8.3818H22C22 4.98459 19.9644 3 16.5156 3H7.48444C4.03556 3 2 4.98459 2 8.33847V15.6615C2 19.0154 4.03556 21 7.48444 21H16.5156C19.9644 21 22 19.0154 22 15.6615V15.3495H17.7689C15.8052 15.3495 14.2133 13.7975 14.2133 11.883C14.2133 9.96849 15.8052 8.41647 17.7689 8.41647V8.3818ZM17.7689 9.87241H21.2533C21.6657 9.87241 22 10.1983 22 10.6004V13.131C21.9952 13.5311 21.6637 13.8543 21.2533 13.8589H17.8489C16.8548 13.872 15.9855 13.2084 15.76 12.2643C15.6471 11.6783 15.8056 11.0736 16.1931 10.6122C16.5805 10.1509 17.1573 9.88007 17.7689 9.87241ZM17.92 12.533H18.2489C18.6711 12.533 19.0133 12.1993 19.0133 11.7877C19.0133 11.3761 18.6711 11.0424 18.2489 11.0424H17.92C17.7181 11.0401 17.5236 11.1166 17.38 11.255C17.2364 11.3934 17.1555 11.5821 17.1556 11.779C17.1555 12.1921 17.4964 12.5282 17.92 12.533ZM6.73778 8.3818H12.3822C12.8044 8.3818 13.1467 8.04812 13.1467 7.63649C13.1467 7.22487 12.8044 6.89119 12.3822 6.89119H6.73778C6.31903 6.89116 5.9782 7.2196 5.97333 7.62783C5.97331 8.04087 6.31415 8.37705 6.73778 8.3818Z"
               })
             }), "Your Profile"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
             href: "sign_in.html",
             className: "side-link mb-0",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("svg", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg", {
               width: "24",
               height: "24",
               viewBox: "0 0 24 24",
               fill: "currentColor",
               xmlns: "http://www.w3.org/2000/svg",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("path", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path", {
                 fillRule: "evenodd",
                 clipRule: "evenodd",
                 d: "M9.89535 11.23C9.45785 11.23 9.11192 11.57 9.11192 12C9.11192 12.42 9.45785 12.77 9.89535 12.77H16V17.55C16 20 13.9753 22 11.4724 22H6.51744C4.02471 22 2 20.01 2 17.56V6.45C2 3.99 4.03488 2 6.52762 2H11.4927C13.9753 2 16 3.99 16 6.44V11.23H9.89535ZM19.6302 8.5402L22.5502 11.4502C22.7002 11.6002 22.7802 11.7902 22.7802 12.0002C22.7802 12.2002 22.7002 12.4002 22.5502 12.5402L19.6302 15.4502C19.4802 15.6002 19.2802 15.6802 19.0902 15.6802C18.8902 15.6802 18.6902 15.6002 18.5402 15.4502C18.2402 15.1502 18.2402 14.6602 18.5402 14.3602L20.1402 12.7702H16.0002V11.2302H20.1402L18.5402 9.6402C18.2402 9.3402 18.2402 8.8502 18.5402 8.5502C18.8402 8.2402 19.3302 8.2402 19.6302 8.5402Z"
               })
             }), "Logout"]
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "mt-auto pr-[30px]",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
             className: "p-5 bg-black rounded-[25px]",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
               src: "/icons/ic_star-rounded.svg",
               alt: ""
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "text-white text-lg font-semibold mt-4 mb-8",
               children: "For Greatest"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "text-white text-sm mb-2",
               children: "12 of 30 hari"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "rounded-full w-full h-[6px] bg-[#333333]",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                 className: "rounded-full h-full w-9/12 bg-alerange"
               })
             })]
@@ -6264,6 +6401,59 @@ function Login() {
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Prototype/Movie/Show.js":
+/*!****************************************************!*\
+  !*** ./resources/js/Pages/Prototype/Movie/Show.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Show)
+/* harmony export */ });
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-player */ "./node_modules/react-player/lib/index.js");
+/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_player__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function Show() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("section", {
+    className: "mx-auto w-screen h-screen relative watching-page font-poppins bg-form-bg",
+    id: "stream",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "pt-[100px]",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)((react_player__WEBPACK_IMPORTED_MODULE_2___default()), {
+        url: "https://www.youtube.com/watch?v=mqqft2x_Aa4",
+        controls: true,
+        width: "100%",
+        height: "850px"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "absolute top-5 left-5 z-20",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+        href: route('prototype.dashboard'),
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+          src: "/icons/ic_arrow-left.svg",
+          className: "transition-all btn-back w-[46px]",
+          alt: "stream"
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+      className: "absolute title-video top-7 left-1/2 -translate-x-1/2 max-w-[310px] md:max-w-[620px] text-center",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+        className: "font-medium text-2xl transition-all text-white drop-shadow-md select-none",
+        children: "Details Screen Part Final"
+      })
+    })]
+  });
+}
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Prototype/Register.js":
 /*!**************************************************!*\
   !*** ./resources/js/Pages/Prototype/Register.js ***!
@@ -6375,6 +6565,55 @@ function Register() {
         })
       })]
     })]
+  });
+}
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Prototype/Subscription.js":
+/*!******************************************************!*\
+  !*** ./resources/js/Pages/Prototype/Subscription.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Subscription)
+/* harmony export */ });
+/* harmony import */ var _Layouts_Authenticated_Index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/Authenticated/Index */ "./resources/js/Layouts/Authenticated/Index.js");
+/* harmony import */ var _Components_SubscriptionCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Components/SubscriptionCard */ "./resources/js/Components/SubscriptionCard.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+function Subscription() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Layouts_Authenticated_Index__WEBPACK_IMPORTED_MODULE_0__["default"], {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "py-20 flex flex-col items-center",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+        className: "text-black font-semibold text-[26px] mb-3",
+        children: "Pricing for Everyone"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+        className: "text-base text-gray-1 leading-7 max-w-[302px] text-center",
+        children: "Invest your little money to get a whole new experiences from movies."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+        className: "flex justify-center gap-10 mt-[70px]",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Components_SubscriptionCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          name: "Basic",
+          price: 297000,
+          durationInMonth: 3,
+          features: ["feature 1", "feature 2", "feature 3"]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Components_SubscriptionCard__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          isPremium: true,
+          name: "Premium",
+          price: 297000,
+          durationInMonth: 6,
+          features: ["feature 1", "feature 2", "feature 3"]
+        })]
+      })]
+    })
   });
 }
 
@@ -11142,6 +11381,81 @@ ImagesLoaded.makeJQueryPlugin();
 return ImagesLoaded;
 
 });
+
+
+/***/ }),
+
+/***/ "./node_modules/load-script/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/load-script/index.js ***!
+  \*******************************************/
+/***/ ((module) => {
+
+
+module.exports = function load (src, opts, cb) {
+  var head = document.head || document.getElementsByTagName('head')[0]
+  var script = document.createElement('script')
+
+  if (typeof opts === 'function') {
+    cb = opts
+    opts = {}
+  }
+
+  opts = opts || {}
+  cb = cb || function() {}
+
+  script.type = opts.type || 'text/javascript'
+  script.charset = opts.charset || 'utf8';
+  script.async = 'async' in opts ? !!opts.async : true
+  script.src = src
+
+  if (opts.attrs) {
+    setAttributes(script, opts.attrs)
+  }
+
+  if (opts.text) {
+    script.text = '' + opts.text
+  }
+
+  var onend = 'onload' in script ? stdOnEnd : ieOnEnd
+  onend(script, cb)
+
+  // some good legacy browsers (firefox) fail the 'in' detection above
+  // so as a fallback we always set onload
+  // old IE will ignore this and new IE will set onload
+  if (!script.onload) {
+    stdOnEnd(script, cb);
+  }
+
+  head.appendChild(script)
+}
+
+function setAttributes(script, attrs) {
+  for (var attr in attrs) {
+    script.setAttribute(attr, attrs[attr]);
+  }
+}
+
+function stdOnEnd (script, cb) {
+  script.onload = function () {
+    this.onerror = this.onload = null
+    cb(null, script)
+  }
+  script.onerror = function () {
+    // this.onload = null here is necessary
+    // because even IE9 works not like others
+    this.onerror = this.onload = null
+    cb(new Error('Failed to load ' + this.src), script)
+  }
+}
+
+function ieOnEnd (script, cb) {
+  script.onreadystatechange = function () {
+    if (this.readyState != 'complete' && this.readyState != 'loaded') return
+    this.onreadystatechange = null
+    cb(null, script) // there is no way to catch loading errors in IE8
+  }
+}
 
 
 /***/ }),
@@ -30213,6 +30527,70 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
   // Check for `exports` after `define` in case a build optimizer adds it.
   else {}
 }.call(this));
+
+
+/***/ }),
+
+/***/ "./node_modules/memoize-one/dist/memoize-one.esm.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/memoize-one/dist/memoize-one.esm.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var safeIsNaN = Number.isNaN ||
+    function ponyfill(value) {
+        return typeof value === 'number' && value !== value;
+    };
+function isEqual(first, second) {
+    if (first === second) {
+        return true;
+    }
+    if (safeIsNaN(first) && safeIsNaN(second)) {
+        return true;
+    }
+    return false;
+}
+function areInputsEqual(newInputs, lastInputs) {
+    if (newInputs.length !== lastInputs.length) {
+        return false;
+    }
+    for (var i = 0; i < newInputs.length; i++) {
+        if (!isEqual(newInputs[i], lastInputs[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function memoizeOne(resultFn, isEqual) {
+    if (isEqual === void 0) { isEqual = areInputsEqual; }
+    var lastThis;
+    var lastArgs = [];
+    var lastResult;
+    var calledOnce = false;
+    function memoized() {
+        var newArgs = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            newArgs[_i] = arguments[_i];
+        }
+        if (calledOnce && lastThis === this && isEqual(newArgs, lastArgs)) {
+            return lastResult;
+        }
+        lastResult = resultFn.apply(this, newArgs);
+        calledOnce = true;
+        lastThis = this;
+        lastArgs = newArgs;
+        return lastResult;
+    }
+    return memoized;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (memoizeOne);
 
 
 /***/ }),
@@ -59559,6 +59937,155 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-fast-compare/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-fast-compare/index.js ***!
+  \**************************************************/
+/***/ ((module) => {
+
+/* global Map:readonly, Set:readonly, ArrayBuffer:readonly */
+
+var hasElementType = typeof Element !== 'undefined';
+var hasMap = typeof Map === 'function';
+var hasSet = typeof Set === 'function';
+var hasArrayBuffer = typeof ArrayBuffer === 'function' && !!ArrayBuffer.isView;
+
+// Note: We **don't** need `envHasBigInt64Array` in fde es6/index.js
+
+function equal(a, b) {
+  // START: fast-deep-equal es6/index.js 3.1.3
+  if (a === b) return true;
+
+  if (a && b && typeof a == 'object' && typeof b == 'object') {
+    if (a.constructor !== b.constructor) return false;
+
+    var length, i, keys;
+    if (Array.isArray(a)) {
+      length = a.length;
+      if (length != b.length) return false;
+      for (i = length; i-- !== 0;)
+        if (!equal(a[i], b[i])) return false;
+      return true;
+    }
+
+    // START: Modifications:
+    // 1. Extra `has<Type> &&` helpers in initial condition allow es6 code
+    //    to co-exist with es5.
+    // 2. Replace `for of` with es5 compliant iteration using `for`.
+    //    Basically, take:
+    //
+    //    ```js
+    //    for (i of a.entries())
+    //      if (!b.has(i[0])) return false;
+    //    ```
+    //
+    //    ... and convert to:
+    //
+    //    ```js
+    //    it = a.entries();
+    //    while (!(i = it.next()).done)
+    //      if (!b.has(i.value[0])) return false;
+    //    ```
+    //
+    //    **Note**: `i` access switches to `i.value`.
+    var it;
+    if (hasMap && (a instanceof Map) && (b instanceof Map)) {
+      if (a.size !== b.size) return false;
+      it = a.entries();
+      while (!(i = it.next()).done)
+        if (!b.has(i.value[0])) return false;
+      it = a.entries();
+      while (!(i = it.next()).done)
+        if (!equal(i.value[1], b.get(i.value[0]))) return false;
+      return true;
+    }
+
+    if (hasSet && (a instanceof Set) && (b instanceof Set)) {
+      if (a.size !== b.size) return false;
+      it = a.entries();
+      while (!(i = it.next()).done)
+        if (!b.has(i.value[0])) return false;
+      return true;
+    }
+    // END: Modifications
+
+    if (hasArrayBuffer && ArrayBuffer.isView(a) && ArrayBuffer.isView(b)) {
+      length = a.length;
+      if (length != b.length) return false;
+      for (i = length; i-- !== 0;)
+        if (a[i] !== b[i]) return false;
+      return true;
+    }
+
+    if (a.constructor === RegExp) return a.source === b.source && a.flags === b.flags;
+    // START: Modifications:
+    // Apply guards for `Object.create(null)` handling. See:
+    // - https://github.com/FormidableLabs/react-fast-compare/issues/64
+    // - https://github.com/epoberezkin/fast-deep-equal/issues/49
+    if (a.valueOf !== Object.prototype.valueOf && typeof a.valueOf === 'function' && typeof b.valueOf === 'function') return a.valueOf() === b.valueOf();
+    if (a.toString !== Object.prototype.toString && typeof a.toString === 'function' && typeof b.toString === 'function') return a.toString() === b.toString();
+    // END: Modifications
+
+    keys = Object.keys(a);
+    length = keys.length;
+    if (length !== Object.keys(b).length) return false;
+
+    for (i = length; i-- !== 0;)
+      if (!Object.prototype.hasOwnProperty.call(b, keys[i])) return false;
+    // END: fast-deep-equal
+
+    // START: react-fast-compare
+    // custom handling for DOM elements
+    if (hasElementType && a instanceof Element) return false;
+
+    // custom handling for React/Preact
+    for (i = length; i-- !== 0;) {
+      if ((keys[i] === '_owner' || keys[i] === '__v' || keys[i] === '__o') && a.$$typeof) {
+        // React-specific: avoid traversing React elements' _owner
+        // Preact-specific: avoid traversing Preact elements' __v and __o
+        //    __v = $_original / $_vnode
+        //    __o = $_owner
+        // These properties contain circular references and are not needed when
+        // comparing the actual elements (and not their owners)
+        // .$$typeof and ._store on just reasonable markers of elements
+
+        continue;
+      }
+
+      // all other properties should be traversed as usual
+      if (!equal(a[keys[i]], b[keys[i]])) return false;
+    }
+    // END: react-fast-compare
+
+    // START: fast-deep-equal
+    return true;
+  }
+
+  return a !== a && b !== b;
+}
+// end fast-deep-equal
+
+module.exports = function isEqual(a, b) {
+  try {
+    return equal(a, b);
+  } catch (error) {
+    if (((error.message || '').match(/stack|recursion/i))) {
+      // warn on circular references, don't crash
+      // browsers give this different errors name and messages:
+      // chrome/safari: "RangeError", "Maximum call stack size exceeded"
+      // firefox: "InternalError", too much recursion"
+      // edge: "Error", "Out of stack space"
+      console.warn('react-fast-compare cannot handle circular refs');
+      return false;
+    }
+    // some other error. we should definitely know about these
+    throw error;
+  }
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/react-flickity-component/lib/index.js":
 /*!************************************************************!*\
   !*** ./node_modules/react-flickity-component/lib/index.js ***!
@@ -59970,6 +60497,1252 @@ exports.typeOf = typeOf;
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/Player.js":
+/*!*************************************************!*\
+  !*** ./node_modules/react-player/lib/Player.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var __publicField = (obj, key, value) => {
+  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
+  return value;
+};
+var Player_exports = {};
+__export(Player_exports, {
+  default: () => Player
+});
+module.exports = __toCommonJS(Player_exports);
+var import_react = __toESM(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var import_react_fast_compare = __toESM(__webpack_require__(/*! react-fast-compare */ "./node_modules/react-fast-compare/index.js"));
+var import_props = __webpack_require__(/*! ./props */ "./node_modules/react-player/lib/props.js");
+var import_utils = __webpack_require__(/*! ./utils */ "./node_modules/react-player/lib/utils.js");
+const SEEK_ON_PLAY_EXPIRY = 5e3;
+class Player extends import_react.Component {
+  constructor() {
+    super(...arguments);
+    __publicField(this, "mounted", false);
+    __publicField(this, "isReady", false);
+    __publicField(this, "isPlaying", false);
+    // Track playing state internally to prevent bugs
+    __publicField(this, "isLoading", true);
+    // Use isLoading to prevent onPause when switching URL
+    __publicField(this, "loadOnReady", null);
+    __publicField(this, "startOnPlay", true);
+    __publicField(this, "seekOnPlay", null);
+    __publicField(this, "onDurationCalled", false);
+    __publicField(this, "handlePlayerMount", (player) => {
+      if (this.player) {
+        this.progress();
+        return;
+      }
+      this.player = player;
+      this.player.load(this.props.url);
+      this.progress();
+    });
+    __publicField(this, "getInternalPlayer", (key) => {
+      if (!this.player)
+        return null;
+      return this.player[key];
+    });
+    __publicField(this, "progress", () => {
+      if (this.props.url && this.player && this.isReady) {
+        const playedSeconds = this.getCurrentTime() || 0;
+        const loadedSeconds = this.getSecondsLoaded();
+        const duration = this.getDuration();
+        if (duration) {
+          const progress = {
+            playedSeconds,
+            played: playedSeconds / duration
+          };
+          if (loadedSeconds !== null) {
+            progress.loadedSeconds = loadedSeconds;
+            progress.loaded = loadedSeconds / duration;
+          }
+          if (progress.playedSeconds !== this.prevPlayed || progress.loadedSeconds !== this.prevLoaded) {
+            this.props.onProgress(progress);
+          }
+          this.prevPlayed = progress.playedSeconds;
+          this.prevLoaded = progress.loadedSeconds;
+        }
+      }
+      this.progressTimeout = setTimeout(this.progress, this.props.progressFrequency || this.props.progressInterval);
+    });
+    __publicField(this, "handleReady", () => {
+      if (!this.mounted)
+        return;
+      this.isReady = true;
+      this.isLoading = false;
+      const { onReady, playing, volume, muted } = this.props;
+      onReady();
+      if (!muted && volume !== null) {
+        this.player.setVolume(volume);
+      }
+      if (this.loadOnReady) {
+        this.player.load(this.loadOnReady, true);
+        this.loadOnReady = null;
+      } else if (playing) {
+        this.player.play();
+      }
+      this.handleDurationCheck();
+    });
+    __publicField(this, "handlePlay", () => {
+      this.isPlaying = true;
+      this.isLoading = false;
+      const { onStart, onPlay, playbackRate } = this.props;
+      if (this.startOnPlay) {
+        if (this.player.setPlaybackRate && playbackRate !== 1) {
+          this.player.setPlaybackRate(playbackRate);
+        }
+        onStart();
+        this.startOnPlay = false;
+      }
+      onPlay();
+      if (this.seekOnPlay) {
+        this.seekTo(this.seekOnPlay);
+        this.seekOnPlay = null;
+      }
+      this.handleDurationCheck();
+    });
+    __publicField(this, "handlePause", (e) => {
+      this.isPlaying = false;
+      if (!this.isLoading) {
+        this.props.onPause(e);
+      }
+    });
+    __publicField(this, "handleEnded", () => {
+      const { activePlayer, loop, onEnded } = this.props;
+      if (activePlayer.loopOnEnded && loop) {
+        this.seekTo(0);
+      }
+      if (!loop) {
+        this.isPlaying = false;
+        onEnded();
+      }
+    });
+    __publicField(this, "handleError", (...args) => {
+      this.isLoading = false;
+      this.props.onError(...args);
+    });
+    __publicField(this, "handleDurationCheck", () => {
+      clearTimeout(this.durationCheckTimeout);
+      const duration = this.getDuration();
+      if (duration) {
+        if (!this.onDurationCalled) {
+          this.props.onDuration(duration);
+          this.onDurationCalled = true;
+        }
+      } else {
+        this.durationCheckTimeout = setTimeout(this.handleDurationCheck, 100);
+      }
+    });
+    __publicField(this, "handleLoaded", () => {
+      this.isLoading = false;
+    });
+  }
+  componentDidMount() {
+    this.mounted = true;
+  }
+  componentWillUnmount() {
+    clearTimeout(this.progressTimeout);
+    clearTimeout(this.durationCheckTimeout);
+    if (this.isReady && this.props.stopOnUnmount) {
+      this.player.stop();
+      if (this.player.disablePIP) {
+        this.player.disablePIP();
+      }
+    }
+    this.mounted = false;
+  }
+  componentDidUpdate(prevProps) {
+    if (!this.player) {
+      return;
+    }
+    const { url, playing, volume, muted, playbackRate, pip, loop, activePlayer, disableDeferredLoading } = this.props;
+    if (!(0, import_react_fast_compare.default)(prevProps.url, url)) {
+      if (this.isLoading && !activePlayer.forceLoad && !disableDeferredLoading && !(0, import_utils.isMediaStream)(url)) {
+        console.warn(`ReactPlayer: the attempt to load ${url} is being deferred until the player has loaded`);
+        this.loadOnReady = url;
+        return;
+      }
+      this.isLoading = true;
+      this.startOnPlay = true;
+      this.onDurationCalled = false;
+      this.player.load(url, this.isReady);
+    }
+    if (!prevProps.playing && playing && !this.isPlaying) {
+      this.player.play();
+    }
+    if (prevProps.playing && !playing && this.isPlaying) {
+      this.player.pause();
+    }
+    if (!prevProps.pip && pip && this.player.enablePIP) {
+      this.player.enablePIP();
+    }
+    if (prevProps.pip && !pip && this.player.disablePIP) {
+      this.player.disablePIP();
+    }
+    if (prevProps.volume !== volume && volume !== null) {
+      this.player.setVolume(volume);
+    }
+    if (prevProps.muted !== muted) {
+      if (muted) {
+        this.player.mute();
+      } else {
+        this.player.unmute();
+        if (volume !== null) {
+          setTimeout(() => this.player.setVolume(volume));
+        }
+      }
+    }
+    if (prevProps.playbackRate !== playbackRate && this.player.setPlaybackRate) {
+      this.player.setPlaybackRate(playbackRate);
+    }
+    if (prevProps.loop !== loop && this.player.setLoop) {
+      this.player.setLoop(loop);
+    }
+  }
+  getDuration() {
+    if (!this.isReady)
+      return null;
+    return this.player.getDuration();
+  }
+  getCurrentTime() {
+    if (!this.isReady)
+      return null;
+    return this.player.getCurrentTime();
+  }
+  getSecondsLoaded() {
+    if (!this.isReady)
+      return null;
+    return this.player.getSecondsLoaded();
+  }
+  seekTo(amount, type, keepPlaying) {
+    if (!this.isReady) {
+      if (amount !== 0) {
+        this.seekOnPlay = amount;
+        setTimeout(() => {
+          this.seekOnPlay = null;
+        }, SEEK_ON_PLAY_EXPIRY);
+      }
+      return;
+    }
+    const isFraction = !type ? amount > 0 && amount < 1 : type === "fraction";
+    if (isFraction) {
+      const duration = this.player.getDuration();
+      if (!duration) {
+        console.warn("ReactPlayer: could not seek using fraction \u2013\xA0duration not yet available");
+        return;
+      }
+      this.player.seekTo(duration * amount, keepPlaying);
+      return;
+    }
+    this.player.seekTo(amount, keepPlaying);
+  }
+  render() {
+    const Player2 = this.props.activePlayer;
+    if (!Player2) {
+      return null;
+    }
+    return /* @__PURE__ */ import_react.default.createElement(
+      Player2,
+      {
+        ...this.props,
+        onMount: this.handlePlayerMount,
+        onReady: this.handleReady,
+        onPlay: this.handlePlay,
+        onPause: this.handlePause,
+        onEnded: this.handleEnded,
+        onLoaded: this.handleLoaded,
+        onError: this.handleError
+      }
+    );
+  }
+}
+__publicField(Player, "displayName", "Player");
+__publicField(Player, "propTypes", import_props.propTypes);
+__publicField(Player, "defaultProps", import_props.defaultProps);
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/ReactPlayer.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-player/lib/ReactPlayer.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var __publicField = (obj, key, value) => {
+  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
+  return value;
+};
+var ReactPlayer_exports = {};
+__export(ReactPlayer_exports, {
+  createReactPlayer: () => createReactPlayer
+});
+module.exports = __toCommonJS(ReactPlayer_exports);
+var import_react = __toESM(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var import_deepmerge = __toESM(__webpack_require__(/*! deepmerge */ "./node_modules/deepmerge/dist/cjs.js"));
+var import_memoize_one = __toESM(__webpack_require__(/*! memoize-one */ "./node_modules/memoize-one/dist/memoize-one.esm.js"));
+var import_react_fast_compare = __toESM(__webpack_require__(/*! react-fast-compare */ "./node_modules/react-fast-compare/index.js"));
+var import_props = __webpack_require__(/*! ./props */ "./node_modules/react-player/lib/props.js");
+var import_utils = __webpack_require__(/*! ./utils */ "./node_modules/react-player/lib/utils.js");
+var import_Player = __toESM(__webpack_require__(/*! ./Player */ "./node_modules/react-player/lib/Player.js"));
+const Preview = (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerPreview */ "reactPlayerPreview").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Preview */ "./node_modules/react-player/lib/Preview.js", 23)));
+const IS_BROWSER = typeof window !== "undefined" && window.document && typeof document !== "undefined";
+const IS_GLOBAL = typeof __webpack_require__.g !== "undefined" && __webpack_require__.g.window && __webpack_require__.g.window.document;
+const SUPPORTED_PROPS = Object.keys(import_props.propTypes);
+const UniversalSuspense = IS_BROWSER || IS_GLOBAL ? import_react.Suspense : () => null;
+const customPlayers = [];
+const createReactPlayer = (players, fallback) => {
+  var _a;
+  return _a = class extends import_react.Component {
+    constructor() {
+      super(...arguments);
+      __publicField(this, "state", {
+        showPreview: !!this.props.light
+      });
+      // Use references, as refs is used by React
+      __publicField(this, "references", {
+        wrapper: (wrapper) => {
+          this.wrapper = wrapper;
+        },
+        player: (player) => {
+          this.player = player;
+        }
+      });
+      __publicField(this, "handleClickPreview", (e) => {
+        this.setState({ showPreview: false });
+        this.props.onClickPreview(e);
+      });
+      __publicField(this, "showPreview", () => {
+        this.setState({ showPreview: true });
+      });
+      __publicField(this, "getDuration", () => {
+        if (!this.player)
+          return null;
+        return this.player.getDuration();
+      });
+      __publicField(this, "getCurrentTime", () => {
+        if (!this.player)
+          return null;
+        return this.player.getCurrentTime();
+      });
+      __publicField(this, "getSecondsLoaded", () => {
+        if (!this.player)
+          return null;
+        return this.player.getSecondsLoaded();
+      });
+      __publicField(this, "getInternalPlayer", (key = "player") => {
+        if (!this.player)
+          return null;
+        return this.player.getInternalPlayer(key);
+      });
+      __publicField(this, "seekTo", (fraction, type, keepPlaying) => {
+        if (!this.player)
+          return null;
+        this.player.seekTo(fraction, type, keepPlaying);
+      });
+      __publicField(this, "handleReady", () => {
+        this.props.onReady(this);
+      });
+      __publicField(this, "getActivePlayer", (0, import_memoize_one.default)((url) => {
+        for (const player of [...customPlayers, ...players]) {
+          if (player.canPlay(url)) {
+            return player;
+          }
+        }
+        if (fallback) {
+          return fallback;
+        }
+        return null;
+      }));
+      __publicField(this, "getConfig", (0, import_memoize_one.default)((url, key) => {
+        const { config } = this.props;
+        return import_deepmerge.default.all([
+          import_props.defaultProps.config,
+          import_props.defaultProps.config[key] || {},
+          config,
+          config[key] || {}
+        ]);
+      }));
+      __publicField(this, "getAttributes", (0, import_memoize_one.default)((url) => {
+        return (0, import_utils.omit)(this.props, SUPPORTED_PROPS);
+      }));
+      __publicField(this, "renderActivePlayer", (url) => {
+        if (!url)
+          return null;
+        const player = this.getActivePlayer(url);
+        if (!player)
+          return null;
+        const config = this.getConfig(url, player.key);
+        return /* @__PURE__ */ import_react.default.createElement(
+          import_Player.default,
+          {
+            ...this.props,
+            key: player.key,
+            ref: this.references.player,
+            config,
+            activePlayer: player.lazyPlayer || player,
+            onReady: this.handleReady
+          }
+        );
+      });
+    }
+    shouldComponentUpdate(nextProps, nextState) {
+      return !(0, import_react_fast_compare.default)(this.props, nextProps) || !(0, import_react_fast_compare.default)(this.state, nextState);
+    }
+    componentDidUpdate(prevProps) {
+      const { light } = this.props;
+      if (!prevProps.light && light) {
+        this.setState({ showPreview: true });
+      }
+      if (prevProps.light && !light) {
+        this.setState({ showPreview: false });
+      }
+    }
+    renderPreview(url) {
+      if (!url)
+        return null;
+      const { light, playIcon, previewTabIndex, oEmbedUrl, previewAriaLabel } = this.props;
+      return /* @__PURE__ */ import_react.default.createElement(
+        Preview,
+        {
+          url,
+          light,
+          playIcon,
+          previewTabIndex,
+          previewAriaLabel,
+          oEmbedUrl,
+          onClick: this.handleClickPreview
+        }
+      );
+    }
+    render() {
+      const { url, style, width, height, fallback: fallback2, wrapper: Wrapper } = this.props;
+      const { showPreview } = this.state;
+      const attributes = this.getAttributes(url);
+      const wrapperRef = typeof Wrapper === "string" ? this.references.wrapper : void 0;
+      return /* @__PURE__ */ import_react.default.createElement(Wrapper, { ref: wrapperRef, style: { ...style, width, height }, ...attributes }, /* @__PURE__ */ import_react.default.createElement(UniversalSuspense, { fallback: fallback2 }, showPreview ? this.renderPreview(url) : this.renderActivePlayer(url)));
+    }
+  }, __publicField(_a, "displayName", "ReactPlayer"), __publicField(_a, "propTypes", import_props.propTypes), __publicField(_a, "defaultProps", import_props.defaultProps), __publicField(_a, "addCustomPlayer", (player) => {
+    customPlayers.push(player);
+  }), __publicField(_a, "removeCustomPlayers", () => {
+    customPlayers.length = 0;
+  }), __publicField(_a, "canPlay", (url) => {
+    for (const Player2 of [...customPlayers, ...players]) {
+      if (Player2.canPlay(url)) {
+        return true;
+      }
+    }
+    return false;
+  }), __publicField(_a, "canEnablePIP", (url) => {
+    for (const Player2 of [...customPlayers, ...players]) {
+      if (Player2.canEnablePIP && Player2.canEnablePIP(url)) {
+        return true;
+      }
+    }
+    return false;
+  }), _a;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-player/lib/index.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var src_exports = {};
+__export(src_exports, {
+  default: () => src_default
+});
+module.exports = __toCommonJS(src_exports);
+var import_players = __toESM(__webpack_require__(/*! ./players */ "./node_modules/react-player/lib/players/index.js"));
+var import_ReactPlayer = __webpack_require__(/*! ./ReactPlayer */ "./node_modules/react-player/lib/ReactPlayer.js");
+const fallback = import_players.default[import_players.default.length - 1];
+var src_default = (0, import_ReactPlayer.createReactPlayer)(import_players.default, fallback);
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/patterns.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-player/lib/patterns.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var patterns_exports = {};
+__export(patterns_exports, {
+  AUDIO_EXTENSIONS: () => AUDIO_EXTENSIONS,
+  DASH_EXTENSIONS: () => DASH_EXTENSIONS,
+  FLV_EXTENSIONS: () => FLV_EXTENSIONS,
+  HLS_EXTENSIONS: () => HLS_EXTENSIONS,
+  MATCH_URL_DAILYMOTION: () => MATCH_URL_DAILYMOTION,
+  MATCH_URL_FACEBOOK: () => MATCH_URL_FACEBOOK,
+  MATCH_URL_FACEBOOK_WATCH: () => MATCH_URL_FACEBOOK_WATCH,
+  MATCH_URL_KALTURA: () => MATCH_URL_KALTURA,
+  MATCH_URL_MIXCLOUD: () => MATCH_URL_MIXCLOUD,
+  MATCH_URL_MUX: () => MATCH_URL_MUX,
+  MATCH_URL_SOUNDCLOUD: () => MATCH_URL_SOUNDCLOUD,
+  MATCH_URL_STREAMABLE: () => MATCH_URL_STREAMABLE,
+  MATCH_URL_TWITCH_CHANNEL: () => MATCH_URL_TWITCH_CHANNEL,
+  MATCH_URL_TWITCH_VIDEO: () => MATCH_URL_TWITCH_VIDEO,
+  MATCH_URL_VIDYARD: () => MATCH_URL_VIDYARD,
+  MATCH_URL_VIMEO: () => MATCH_URL_VIMEO,
+  MATCH_URL_WISTIA: () => MATCH_URL_WISTIA,
+  MATCH_URL_YOUTUBE: () => MATCH_URL_YOUTUBE,
+  VIDEO_EXTENSIONS: () => VIDEO_EXTENSIONS,
+  canPlay: () => canPlay
+});
+module.exports = __toCommonJS(patterns_exports);
+var import_utils = __webpack_require__(/*! ./utils */ "./node_modules/react-player/lib/utils.js");
+const MATCH_URL_YOUTUBE = /(?:youtu\.be\/|youtube(?:-nocookie|education)?\.com\/(?:embed\/|v\/|watch\/|watch\?v=|watch\?.+&v=|shorts\/|live\/))((\w|-){11})|youtube\.com\/playlist\?list=|youtube\.com\/user\//;
+const MATCH_URL_SOUNDCLOUD = /(?:soundcloud\.com|snd\.sc)\/[^.]+$/;
+const MATCH_URL_VIMEO = /vimeo\.com\/(?!progressive_redirect).+/;
+const MATCH_URL_MUX = /stream\.mux\.com\/(?!\w+\.m3u8)(\w+)/;
+const MATCH_URL_FACEBOOK = /^https?:\/\/(www\.)?facebook\.com.*\/(video(s)?|watch|story)(\.php?|\/).+$/;
+const MATCH_URL_FACEBOOK_WATCH = /^https?:\/\/fb\.watch\/.+$/;
+const MATCH_URL_STREAMABLE = /streamable\.com\/([a-z0-9]+)$/;
+const MATCH_URL_WISTIA = /(?:wistia\.(?:com|net)|wi\.st)\/(?:medias|embed)\/(?:iframe\/)?([^?]+)/;
+const MATCH_URL_TWITCH_VIDEO = /(?:www\.|go\.)?twitch\.tv\/videos\/(\d+)($|\?)/;
+const MATCH_URL_TWITCH_CHANNEL = /(?:www\.|go\.)?twitch\.tv\/([a-zA-Z0-9_]+)($|\?)/;
+const MATCH_URL_DAILYMOTION = /^(?:(?:https?):)?(?:\/\/)?(?:www\.)?(?:(?:dailymotion\.com(?:\/embed)?\/video)|dai\.ly)\/([a-zA-Z0-9]+)(?:_[\w_-]+)?(?:[\w.#_-]+)?/;
+const MATCH_URL_MIXCLOUD = /mixcloud\.com\/([^/]+\/[^/]+)/;
+const MATCH_URL_VIDYARD = /vidyard.com\/(?:watch\/)?([a-zA-Z0-9-_]+)/;
+const MATCH_URL_KALTURA = /^https?:\/\/[a-zA-Z]+\.kaltura.(com|org)\/p\/([0-9]+)\/sp\/([0-9]+)00\/embedIframeJs\/uiconf_id\/([0-9]+)\/partner_id\/([0-9]+)(.*)entry_id.([a-zA-Z0-9-_].*)$/;
+const AUDIO_EXTENSIONS = /\.(m4a|m4b|mp4a|mpga|mp2|mp2a|mp3|m2a|m3a|wav|weba|aac|oga|spx)($|\?)/i;
+const VIDEO_EXTENSIONS = /\.(mp4|og[gv]|webm|mov|m4v)(#t=[,\d+]+)?($|\?)/i;
+const HLS_EXTENSIONS = /\.(m3u8)($|\?)/i;
+const DASH_EXTENSIONS = /\.(mpd)($|\?)/i;
+const FLV_EXTENSIONS = /\.(flv)($|\?)/i;
+const canPlayFile = (url) => {
+  if (url instanceof Array) {
+    for (const item of url) {
+      if (typeof item === "string" && canPlayFile(item)) {
+        return true;
+      }
+      if (canPlayFile(item.src)) {
+        return true;
+      }
+    }
+    return false;
+  }
+  if ((0, import_utils.isMediaStream)(url) || (0, import_utils.isBlobUrl)(url)) {
+    return true;
+  }
+  return AUDIO_EXTENSIONS.test(url) || VIDEO_EXTENSIONS.test(url) || HLS_EXTENSIONS.test(url) || DASH_EXTENSIONS.test(url) || FLV_EXTENSIONS.test(url);
+};
+const canPlay = {
+  youtube: (url) => {
+    if (url instanceof Array) {
+      return url.every((item) => MATCH_URL_YOUTUBE.test(item));
+    }
+    return MATCH_URL_YOUTUBE.test(url);
+  },
+  soundcloud: (url) => MATCH_URL_SOUNDCLOUD.test(url) && !AUDIO_EXTENSIONS.test(url),
+  vimeo: (url) => MATCH_URL_VIMEO.test(url) && !VIDEO_EXTENSIONS.test(url) && !HLS_EXTENSIONS.test(url),
+  mux: (url) => MATCH_URL_MUX.test(url),
+  facebook: (url) => MATCH_URL_FACEBOOK.test(url) || MATCH_URL_FACEBOOK_WATCH.test(url),
+  streamable: (url) => MATCH_URL_STREAMABLE.test(url),
+  wistia: (url) => MATCH_URL_WISTIA.test(url),
+  twitch: (url) => MATCH_URL_TWITCH_VIDEO.test(url) || MATCH_URL_TWITCH_CHANNEL.test(url),
+  dailymotion: (url) => MATCH_URL_DAILYMOTION.test(url),
+  mixcloud: (url) => MATCH_URL_MIXCLOUD.test(url),
+  vidyard: (url) => MATCH_URL_VIDYARD.test(url),
+  kaltura: (url) => MATCH_URL_KALTURA.test(url),
+  file: canPlayFile
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/players/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-player/lib/players/index.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var players_exports = {};
+__export(players_exports, {
+  default: () => players_default
+});
+module.exports = __toCommonJS(players_exports);
+var import_utils = __webpack_require__(/*! ../utils */ "./node_modules/react-player/lib/utils.js");
+var import_patterns = __webpack_require__(/*! ../patterns */ "./node_modules/react-player/lib/patterns.js");
+var players_default = [
+  {
+    key: "youtube",
+    name: "YouTube",
+    canPlay: import_patterns.canPlay.youtube,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerYouTube */ "reactPlayerYouTube").then(__webpack_require__.t.bind(__webpack_require__, /*! ./YouTube */ "./node_modules/react-player/lib/players/YouTube.js", 23)))
+  },
+  {
+    key: "soundcloud",
+    name: "SoundCloud",
+    canPlay: import_patterns.canPlay.soundcloud,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerSoundCloud */ "reactPlayerSoundCloud").then(__webpack_require__.t.bind(__webpack_require__, /*! ./SoundCloud */ "./node_modules/react-player/lib/players/SoundCloud.js", 23)))
+  },
+  {
+    key: "vimeo",
+    name: "Vimeo",
+    canPlay: import_patterns.canPlay.vimeo,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerVimeo */ "reactPlayerVimeo").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Vimeo */ "./node_modules/react-player/lib/players/Vimeo.js", 23)))
+  },
+  {
+    key: "mux",
+    name: "Mux",
+    canPlay: import_patterns.canPlay.mux,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerMux */ "reactPlayerMux").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Mux */ "./node_modules/react-player/lib/players/Mux.js", 23)))
+  },
+  {
+    key: "facebook",
+    name: "Facebook",
+    canPlay: import_patterns.canPlay.facebook,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerFacebook */ "reactPlayerFacebook").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Facebook */ "./node_modules/react-player/lib/players/Facebook.js", 23)))
+  },
+  {
+    key: "streamable",
+    name: "Streamable",
+    canPlay: import_patterns.canPlay.streamable,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerStreamable */ "reactPlayerStreamable").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Streamable */ "./node_modules/react-player/lib/players/Streamable.js", 23)))
+  },
+  {
+    key: "wistia",
+    name: "Wistia",
+    canPlay: import_patterns.canPlay.wistia,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerWistia */ "reactPlayerWistia").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Wistia */ "./node_modules/react-player/lib/players/Wistia.js", 23)))
+  },
+  {
+    key: "twitch",
+    name: "Twitch",
+    canPlay: import_patterns.canPlay.twitch,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerTwitch */ "reactPlayerTwitch").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Twitch */ "./node_modules/react-player/lib/players/Twitch.js", 23)))
+  },
+  {
+    key: "dailymotion",
+    name: "DailyMotion",
+    canPlay: import_patterns.canPlay.dailymotion,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerDailyMotion */ "reactPlayerDailyMotion").then(__webpack_require__.t.bind(__webpack_require__, /*! ./DailyMotion */ "./node_modules/react-player/lib/players/DailyMotion.js", 23)))
+  },
+  {
+    key: "mixcloud",
+    name: "Mixcloud",
+    canPlay: import_patterns.canPlay.mixcloud,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerMixcloud */ "reactPlayerMixcloud").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Mixcloud */ "./node_modules/react-player/lib/players/Mixcloud.js", 23)))
+  },
+  {
+    key: "vidyard",
+    name: "Vidyard",
+    canPlay: import_patterns.canPlay.vidyard,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerVidyard */ "reactPlayerVidyard").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Vidyard */ "./node_modules/react-player/lib/players/Vidyard.js", 23)))
+  },
+  {
+    key: "kaltura",
+    name: "Kaltura",
+    canPlay: import_patterns.canPlay.kaltura,
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerKaltura */ "reactPlayerKaltura").then(__webpack_require__.t.bind(__webpack_require__, /*! ./Kaltura */ "./node_modules/react-player/lib/players/Kaltura.js", 23)))
+  },
+  {
+    key: "file",
+    name: "FilePlayer",
+    canPlay: import_patterns.canPlay.file,
+    canEnablePIP: (url) => {
+      return import_patterns.canPlay.file(url) && (document.pictureInPictureEnabled || (0, import_utils.supportsWebKitPresentationMode)()) && !import_patterns.AUDIO_EXTENSIONS.test(url);
+    },
+    lazyPlayer: (0, import_utils.lazy)(() => __webpack_require__.e(/*! import() | reactPlayerFilePlayer */ "reactPlayerFilePlayer").then(__webpack_require__.t.bind(__webpack_require__, /*! ./FilePlayer */ "./node_modules/react-player/lib/players/FilePlayer.js", 23)))
+  }
+];
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/props.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-player/lib/props.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var props_exports = {};
+__export(props_exports, {
+  defaultProps: () => defaultProps,
+  propTypes: () => propTypes
+});
+module.exports = __toCommonJS(props_exports);
+var import_prop_types = __toESM(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+const { string, bool, number, array, oneOfType, shape, object, func, node } = import_prop_types.default;
+const propTypes = {
+  url: oneOfType([string, array, object]),
+  playing: bool,
+  loop: bool,
+  controls: bool,
+  volume: number,
+  muted: bool,
+  playbackRate: number,
+  width: oneOfType([string, number]),
+  height: oneOfType([string, number]),
+  style: object,
+  progressInterval: number,
+  playsinline: bool,
+  pip: bool,
+  stopOnUnmount: bool,
+  light: oneOfType([bool, string, object]),
+  playIcon: node,
+  previewTabIndex: number,
+  previewAriaLabel: string,
+  fallback: node,
+  oEmbedUrl: string,
+  wrapper: oneOfType([
+    string,
+    func,
+    shape({ render: func.isRequired })
+  ]),
+  config: shape({
+    soundcloud: shape({
+      options: object
+    }),
+    youtube: shape({
+      playerVars: object,
+      embedOptions: object,
+      onUnstarted: func
+    }),
+    facebook: shape({
+      appId: string,
+      version: string,
+      playerId: string,
+      attributes: object
+    }),
+    dailymotion: shape({
+      params: object
+    }),
+    vimeo: shape({
+      playerOptions: object,
+      title: string
+    }),
+    mux: shape({
+      attributes: object,
+      version: string
+    }),
+    file: shape({
+      attributes: object,
+      tracks: array,
+      forceVideo: bool,
+      forceAudio: bool,
+      forceHLS: bool,
+      forceSafariHLS: bool,
+      forceDisableHls: bool,
+      forceDASH: bool,
+      forceFLV: bool,
+      hlsOptions: object,
+      hlsVersion: string,
+      dashVersion: string,
+      flvVersion: string
+    }),
+    wistia: shape({
+      options: object,
+      playerId: string,
+      customControls: array
+    }),
+    mixcloud: shape({
+      options: object
+    }),
+    twitch: shape({
+      options: object,
+      playerId: string
+    }),
+    vidyard: shape({
+      options: object
+    })
+  }),
+  onReady: func,
+  onStart: func,
+  onPlay: func,
+  onPause: func,
+  onBuffer: func,
+  onBufferEnd: func,
+  onEnded: func,
+  onError: func,
+  onDuration: func,
+  onSeek: func,
+  onPlaybackRateChange: func,
+  onPlaybackQualityChange: func,
+  onProgress: func,
+  onClickPreview: func,
+  onEnablePIP: func,
+  onDisablePIP: func
+};
+const noop = () => {
+};
+const defaultProps = {
+  playing: false,
+  loop: false,
+  controls: false,
+  volume: null,
+  muted: false,
+  playbackRate: 1,
+  width: "640px",
+  height: "360px",
+  style: {},
+  progressInterval: 1e3,
+  playsinline: false,
+  pip: false,
+  stopOnUnmount: true,
+  light: false,
+  fallback: null,
+  wrapper: "div",
+  previewTabIndex: 0,
+  previewAriaLabel: "",
+  oEmbedUrl: "https://noembed.com/embed?url={url}",
+  config: {
+    soundcloud: {
+      options: {
+        visual: true,
+        // Undocumented, but makes player fill container and look better
+        buying: false,
+        liking: false,
+        download: false,
+        sharing: false,
+        show_comments: false,
+        show_playcount: false
+      }
+    },
+    youtube: {
+      playerVars: {
+        playsinline: 1,
+        showinfo: 0,
+        rel: 0,
+        iv_load_policy: 3,
+        modestbranding: 1
+      },
+      embedOptions: {},
+      onUnstarted: noop
+    },
+    facebook: {
+      appId: "1309697205772819",
+      version: "v3.3",
+      playerId: null,
+      attributes: {}
+    },
+    dailymotion: {
+      params: {
+        api: 1,
+        "endscreen-enable": false
+      }
+    },
+    vimeo: {
+      playerOptions: {
+        autopause: false,
+        byline: false,
+        portrait: false,
+        title: false
+      },
+      title: null
+    },
+    mux: {
+      attributes: {},
+      version: "2"
+    },
+    file: {
+      attributes: {},
+      tracks: [],
+      forceVideo: false,
+      forceAudio: false,
+      forceHLS: false,
+      forceDASH: false,
+      forceFLV: false,
+      hlsOptions: {},
+      hlsVersion: "1.1.4",
+      dashVersion: "3.1.3",
+      flvVersion: "1.5.0",
+      forceDisableHls: false
+    },
+    wistia: {
+      options: {},
+      playerId: null,
+      customControls: null
+    },
+    mixcloud: {
+      options: {
+        hide_cover: 1
+      }
+    },
+    twitch: {
+      options: {},
+      playerId: null
+    },
+    vidyard: {
+      options: {}
+    }
+  },
+  onReady: noop,
+  onStart: noop,
+  onPlay: noop,
+  onPause: noop,
+  onBuffer: noop,
+  onBufferEnd: noop,
+  onEnded: noop,
+  onError: noop,
+  onDuration: noop,
+  onSeek: noop,
+  onPlaybackRateChange: noop,
+  onPlaybackQualityChange: noop,
+  onProgress: noop,
+  onClickPreview: noop,
+  onEnablePIP: noop,
+  onDisablePIP: noop
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/react-player/lib/utils.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-player/lib/utils.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var utils_exports = {};
+__export(utils_exports, {
+  callPlayer: () => callPlayer,
+  getConfig: () => getConfig,
+  getSDK: () => getSDK,
+  isBlobUrl: () => isBlobUrl,
+  isMediaStream: () => isMediaStream,
+  lazy: () => lazy,
+  omit: () => omit,
+  parseEndTime: () => parseEndTime,
+  parseStartTime: () => parseStartTime,
+  queryString: () => queryString,
+  randomString: () => randomString,
+  supportsWebKitPresentationMode: () => supportsWebKitPresentationMode
+});
+module.exports = __toCommonJS(utils_exports);
+var import_react = __toESM(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var import_load_script = __toESM(__webpack_require__(/*! load-script */ "./node_modules/load-script/index.js"));
+var import_deepmerge = __toESM(__webpack_require__(/*! deepmerge */ "./node_modules/deepmerge/dist/cjs.js"));
+const lazy = (componentImportFn) => import_react.default.lazy(async () => {
+  const obj = await componentImportFn();
+  return typeof obj.default === "function" ? obj : obj.default;
+});
+const MATCH_START_QUERY = /[?&#](?:start|t)=([0-9hms]+)/;
+const MATCH_END_QUERY = /[?&#]end=([0-9hms]+)/;
+const MATCH_START_STAMP = /(\d+)(h|m|s)/g;
+const MATCH_NUMERIC = /^\d+$/;
+function parseTimeParam(url, pattern) {
+  if (url instanceof Array) {
+    return void 0;
+  }
+  const match = url.match(pattern);
+  if (match) {
+    const stamp = match[1];
+    if (stamp.match(MATCH_START_STAMP)) {
+      return parseTimeString(stamp);
+    }
+    if (MATCH_NUMERIC.test(stamp)) {
+      return parseInt(stamp);
+    }
+  }
+  return void 0;
+}
+function parseTimeString(stamp) {
+  let seconds = 0;
+  let array = MATCH_START_STAMP.exec(stamp);
+  while (array !== null) {
+    const [, count, period] = array;
+    if (period === "h")
+      seconds += parseInt(count, 10) * 60 * 60;
+    if (period === "m")
+      seconds += parseInt(count, 10) * 60;
+    if (period === "s")
+      seconds += parseInt(count, 10);
+    array = MATCH_START_STAMP.exec(stamp);
+  }
+  return seconds;
+}
+function parseStartTime(url) {
+  return parseTimeParam(url, MATCH_START_QUERY);
+}
+function parseEndTime(url) {
+  return parseTimeParam(url, MATCH_END_QUERY);
+}
+function randomString() {
+  return Math.random().toString(36).substr(2, 5);
+}
+function queryString(object) {
+  return Object.keys(object).map((key) => `${key}=${object[key]}`).join("&");
+}
+function getGlobal(key) {
+  if (window[key]) {
+    return window[key];
+  }
+  if (window.exports && window.exports[key]) {
+    return window.exports[key];
+  }
+  if (window.module && window.module.exports && window.module.exports[key]) {
+    return window.module.exports[key];
+  }
+  return null;
+}
+const requests = {};
+const getSDK = enableStubOn(function getSDK2(url, sdkGlobal, sdkReady = null, isLoaded = () => true, fetchScript = import_load_script.default) {
+  const existingGlobal = getGlobal(sdkGlobal);
+  if (existingGlobal && isLoaded(existingGlobal)) {
+    return Promise.resolve(existingGlobal);
+  }
+  return new Promise((resolve, reject) => {
+    if (requests[url]) {
+      requests[url].push({ resolve, reject });
+      return;
+    }
+    requests[url] = [{ resolve, reject }];
+    const onLoaded = (sdk) => {
+      requests[url].forEach((request) => request.resolve(sdk));
+    };
+    if (sdkReady) {
+      const previousOnReady = window[sdkReady];
+      window[sdkReady] = function() {
+        if (previousOnReady)
+          previousOnReady();
+        onLoaded(getGlobal(sdkGlobal));
+      };
+    }
+    fetchScript(url, (err) => {
+      if (err) {
+        requests[url].forEach((request) => request.reject(err));
+        requests[url] = null;
+      } else if (!sdkReady) {
+        onLoaded(getGlobal(sdkGlobal));
+      }
+    });
+  });
+});
+function getConfig(props, defaultProps) {
+  return (0, import_deepmerge.default)(defaultProps.config, props.config);
+}
+function omit(object, ...arrays) {
+  const omitKeys = [].concat(...arrays);
+  const output = {};
+  const keys = Object.keys(object);
+  for (const key of keys) {
+    if (omitKeys.indexOf(key) === -1) {
+      output[key] = object[key];
+    }
+  }
+  return output;
+}
+function callPlayer(method, ...args) {
+  if (!this.player || !this.player[method]) {
+    let message = `ReactPlayer: ${this.constructor.displayName} player could not call %c${method}%c \u2013 `;
+    if (!this.player) {
+      message += "The player was not available";
+    } else if (!this.player[method]) {
+      message += "The method was not available";
+    }
+    console.warn(message, "font-weight: bold", "");
+    return null;
+  }
+  return this.player[method](...args);
+}
+function isMediaStream(url) {
+  return typeof window !== "undefined" && typeof window.MediaStream !== "undefined" && url instanceof window.MediaStream;
+}
+function isBlobUrl(url) {
+  return /^blob:/.test(url);
+}
+function supportsWebKitPresentationMode(video = document.createElement("video")) {
+  const notMobile = /iPhone|iPod/.test(navigator.userAgent) === false;
+  return video.webkitSupportsPresentationMode && typeof video.webkitSetPresentationMode === "function" && notMobile;
+}
+function enableStubOn(fn) {
+  if (false) {}
+  return fn;
 }
 
 
@@ -65199,8 +66972,12 @@ var map = {
 	"./Prototype/Dashboard.js": "./resources/js/Pages/Prototype/Dashboard.js",
 	"./Prototype/Login": "./resources/js/Pages/Prototype/Login.js",
 	"./Prototype/Login.js": "./resources/js/Pages/Prototype/Login.js",
+	"./Prototype/Movie/Show": "./resources/js/Pages/Prototype/Movie/Show.js",
+	"./Prototype/Movie/Show.js": "./resources/js/Pages/Prototype/Movie/Show.js",
 	"./Prototype/Register": "./resources/js/Pages/Prototype/Register.js",
 	"./Prototype/Register.js": "./resources/js/Pages/Prototype/Register.js",
+	"./Prototype/Subscription": "./resources/js/Pages/Prototype/Subscription.js",
+	"./Prototype/Subscription.js": "./resources/js/Pages/Prototype/Subscription.js",
 	"./Welcome": "./resources/js/Pages/Welcome.js",
 	"./Welcome.js": "./resources/js/Pages/Welcome.js"
 };
@@ -65648,6 +67425,36 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/create fake namespace object */
+/******/ 	(() => {
+/******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
+/******/ 		var leafPrototypes;
+/******/ 		// create a fake namespace object
+/******/ 		// mode & 1: value is a module id, require it
+/******/ 		// mode & 2: merge all properties of value into the ns
+/******/ 		// mode & 4: return value when already ns object
+/******/ 		// mode & 16: return value when it's Promise-like
+/******/ 		// mode & 8|1: behave like require
+/******/ 		__webpack_require__.t = function(value, mode) {
+/******/ 			if(mode & 1) value = this(value);
+/******/ 			if(mode & 8) return value;
+/******/ 			if(typeof value === 'object' && value) {
+/******/ 				if((mode & 4) && value.__esModule) return value;
+/******/ 				if((mode & 16) && typeof value.then === 'function') return value;
+/******/ 			}
+/******/ 			var ns = Object.create(null);
+/******/ 			__webpack_require__.r(ns);
+/******/ 			var def = {};
+/******/ 			leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
+/******/ 			for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
+/******/ 				Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
+/******/ 			}
+/******/ 			def['default'] = () => (value);
+/******/ 			__webpack_require__.d(ns, def);
+/******/ 			return ns;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -65657,6 +67464,39 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/ensure chunk */
+/******/ 	(() => {
+/******/ 		__webpack_require__.f = {};
+/******/ 		// This file contains only the entry chunk.
+/******/ 		// The chunk loading function for additional chunks
+/******/ 		__webpack_require__.e = (chunkId) => {
+/******/ 			return Promise.all(Object.keys(__webpack_require__.f).reduce((promises, key) => {
+/******/ 				__webpack_require__.f[key](chunkId, promises);
+/******/ 				return promises;
+/******/ 			}, []));
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/get javascript chunk filename */
+/******/ 	(() => {
+/******/ 		// This function allow to reference async chunks
+/******/ 		__webpack_require__.u = (chunkId) => {
+/******/ 			// return url for filenames not based on template
+/******/ 			if ({"reactPlayerYouTube":1,"reactPlayerSoundCloud":1,"reactPlayerVimeo":1,"reactPlayerMux":1,"reactPlayerFacebook":1,"reactPlayerStreamable":1,"reactPlayerWistia":1,"reactPlayerTwitch":1,"reactPlayerDailyMotion":1,"reactPlayerMixcloud":1,"reactPlayerVidyard":1,"reactPlayerKaltura":1,"reactPlayerFilePlayer":1,"reactPlayerPreview":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			// return url for filenames based on template
+/******/ 			return undefined;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/get mini-css chunk filename */
+/******/ 	(() => {
+/******/ 		// This function allow to reference all chunks
+/******/ 		__webpack_require__.miniCssF = (chunkId) => {
+/******/ 			// return url for filenames based on template
+/******/ 			return "" + chunkId + ".css";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -65675,6 +67515,52 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/load script */
+/******/ 	(() => {
+/******/ 		var inProgress = {};
+/******/ 		// data-webpack is not used as build has no uniqueName
+/******/ 		// loadScript function to load a script via script tag
+/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
+/******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
+/******/ 			var script, needAttach;
+/******/ 			if(key !== undefined) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				for(var i = 0; i < scripts.length; i++) {
+/******/ 					var s = scripts[i];
+/******/ 					if(s.getAttribute("src") == url) { script = s; break; }
+/******/ 				}
+/******/ 			}
+/******/ 			if(!script) {
+/******/ 				needAttach = true;
+/******/ 				script = document.createElement('script');
+/******/ 		
+/******/ 				script.charset = 'utf-8';
+/******/ 				script.timeout = 120;
+/******/ 				if (__webpack_require__.nc) {
+/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
+/******/ 				}
+/******/ 		
+/******/ 				script.src = url;
+/******/ 			}
+/******/ 			inProgress[url] = [done];
+/******/ 			var onScriptComplete = (prev, event) => {
+/******/ 				// avoid mem leaks in IE.
+/******/ 				script.onerror = script.onload = null;
+/******/ 				clearTimeout(timeout);
+/******/ 				var doneFns = inProgress[url];
+/******/ 				delete inProgress[url];
+/******/ 				script.parentNode && script.parentNode.removeChild(script);
+/******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
+/******/ 				if(prev) return prev(event);
+/******/ 			}
+/******/ 			;
+/******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
+/******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
+/******/ 			script.onload = onScriptComplete.bind(null, script.onload);
+/******/ 			needAttach && document.head.appendChild(script);
+/******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -65697,6 +67583,11 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
 /******/ 		// no baseURI
@@ -65709,7 +67600,44 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 			"css/app": 0
 /******/ 		};
 /******/ 		
-/******/ 		// no chunk on demand loading
+/******/ 		__webpack_require__.f.j = (chunkId, promises) => {
+/******/ 				// JSONP chunk loading for javascript
+/******/ 				var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
+/******/ 				if(installedChunkData !== 0) { // 0 means "already installed".
+/******/ 		
+/******/ 					// a Promise means "currently loading".
+/******/ 					if(installedChunkData) {
+/******/ 						promises.push(installedChunkData[2]);
+/******/ 					} else {
+/******/ 						if("css/app" != chunkId) {
+/******/ 							// setup Promise in chunk cache
+/******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
+/******/ 							promises.push(installedChunkData[2] = promise);
+/******/ 		
+/******/ 							// start chunk loading
+/******/ 							var url = __webpack_require__.p + __webpack_require__.u(chunkId);
+/******/ 							// create error before stack unwound to get useful stacktrace later
+/******/ 							var error = new Error();
+/******/ 							var loadingEnded = (event) => {
+/******/ 								if(__webpack_require__.o(installedChunks, chunkId)) {
+/******/ 									installedChunkData = installedChunks[chunkId];
+/******/ 									if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
+/******/ 									if(installedChunkData) {
+/******/ 										var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 										var realSrc = event && event.target && event.target.src;
+/******/ 										error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
+/******/ 										error.name = 'ChunkLoadError';
+/******/ 										error.type = errorType;
+/******/ 										error.request = realSrc;
+/******/ 										installedChunkData[1](error);
+/******/ 									}
+/******/ 								}
+/******/ 							};
+/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
+/******/ 						} else installedChunks[chunkId] = 0;
+/******/ 					}
+/******/ 				}
+/******/ 		};
 /******/ 		
 /******/ 		// no prefetching
 /******/ 		
