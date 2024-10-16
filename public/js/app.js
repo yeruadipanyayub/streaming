@@ -5360,7 +5360,7 @@ var userOthers = [{
     })
   }),
   text: "Logout",
-  method: "post"
+  method: 'post'
 }];
 
 
