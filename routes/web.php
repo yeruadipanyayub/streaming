@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\User\DashboardController;
 use App\Http\Controllers\User\MovieController;
+use App\Http\Controllers\User\SubscriptionController;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -47,6 +48,9 @@ Route::middleware(['auth', 'role:user'])->prefix('dashboard')->name('user.dashbo
     Route::get('/', [DashboardController::class, 'index'])->name('index');
 
     Route::get('movie/{movie:slug}', [MovieController::class, 'show'])->name('movie.show');
+
+    Route::get('subscription', [SubscriptionController::class, 'index'])->name('subscription.index');
+    Route::post('subscription/{subscription}/user-subscribe', [SubscriptionController::class, 'userSubscribe'])->name('subscription.userSubscribe');
 });
 
 Route::prefix('prototype')->name('prototype.')->group(function () {
