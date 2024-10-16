@@ -1,8 +1,14 @@
 <?php
 
+use App\Http\Controllers\User\DashboardController;
+use App\Http\Controllers\User\MovieController;
+use App\Http\Controllers\User\SubscriptionController;
+
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +30,7 @@ use Inertia\Inertia;
 // })->middleware('role:user');
 
 
-Route::redirect('/', '/prototype/login');
+Route::redirect('/', '/login');
 
 // Route::get('/', function () {
 //     return Inertia::render('Welcome', [
@@ -34,9 +40,18 @@ Route::redirect('/', '/prototype/login');
 //         'phpVersion' => PHP_VERSION,
 //     ]);
 // });
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return Inertia::render('User/Dashboard/Index');
+// })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware(['auth', 'role:user'])->prefix('dashboard')->name('user.dashboard.')->group(function () {
+    Route::get('/', [DashboardController::class, 'index'])->name('index');
+
+    Route::get('movie/{movie:slug}', [MovieController::class, 'show'])->name('movie.show')->middleware('checkUserSubscription:true');
+
+    Route::get('subscription', [SubscriptionController::class, 'index'])->name('subscription.index')->middleware('checkUserSubscription:false');
+    Route::post('subscription/{subscription}/user-subscribe', [SubscriptionController::class, 'userSubscribe'])->name('subscription.userSubscribe')->middleware('checkUserSubscription:false');
+});
 
 Route::prefix('prototype')->name('prototype.')->group(function () {
     Route::get('/login', function () {

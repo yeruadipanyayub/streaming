@@ -30,7 +30,7 @@
         border-color: transparent;
     }
 
-
+    [type='text']:focus,
     [type='email']:focus,
     [type='url']:focus,
     [type='password']:focus,
@@ -48,4 +48,5 @@
         border-color: transparent;
         --tw-ring-color: transparent;
     }
+
 }
