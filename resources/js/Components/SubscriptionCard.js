@@ -64,7 +64,7 @@ export default function SubscriptionCard({ id, name, price, durationInMonth, fea
                                         strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                                 <span className="text-sm">
-                                    Unlock 200 awards movies
+                                    {feature}
                                 </span>
                             </div>
                         ))}
